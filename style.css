@@ -170,8 +170,11 @@ p {
 }
 
 .footer-section {
-    width: 20%;
-    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    margin: 50px 50px;
 }
 
 h3 {
