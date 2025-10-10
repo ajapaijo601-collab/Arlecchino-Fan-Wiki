@@ -165,16 +165,17 @@ p {
 
     position: relative;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin: auto;
+    flex-direction: row;
 }
 
 .footer-section {
 
     display: flex;
-    flex-direction: row;
     flex-direction: column;
     margin: 50px 50px;
+
 }
 
 h3 {
@@ -254,6 +255,10 @@ h3 {
 
     .hamburger {
         display: block !important;
+    }
+
+    .footer {
+        flex-direction: column;
     }
 }
 
